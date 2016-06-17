@@ -15,6 +15,10 @@
 		9BF0AB7F1D126745007BE780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0AB7D1D126745007BE780 /* LaunchScreen.storyboard */; };
 		9BF0AB8A1D126745007BE780 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0AB891D126745007BE780 /* SampleTests.swift */; };
 		9BF0AB951D126745007BE780 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0AB941D126745007BE780 /* SampleUITests.swift */; };
+		9BF0ABA61D1268D8007BE780 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0ABA21D1268D8007BE780 /* Employee+CoreDataProperties.swift */; };
+		9BF0ABA71D1268D8007BE780 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0ABA31D1268D8007BE780 /* Employee.swift */; };
+		9BF0ABA81D1268D8007BE780 /* CinOut+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0ABA41D1268D8007BE780 /* CinOut+CoreDataProperties.swift */; };
+		9BF0ABA91D1268D8007BE780 /* CinOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0ABA51D1268D8007BE780 /* CinOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9BF0AB901D126745007BE780 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF0AB941D126745007BE780 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		9BF0AB961D126745007BE780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF0ABA21D1268D8007BE780 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9BF0ABA31D1268D8007BE780 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BF0ABA41D1268D8007BE780 /* CinOut+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CinOut+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9BF0ABA51D1268D8007BE780 /* CinOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		9BF0AB651D126745007BE780 = {
 			isa = PBXGroup;
 			children = (
+				9BF0ABA21D1268D8007BE780 /* Employee+CoreDataProperties.swift */,
+				9BF0ABA31D1268D8007BE780 /* Employee.swift */,
+				9BF0ABA41D1268D8007BE780 /* CinOut+CoreDataProperties.swift */,
+				9BF0ABA51D1268D8007BE780 /* CinOut.swift */,
 				9BF0AB701D126745007BE780 /* Sample */,
 				9BF0AB881D126745007BE780 /* SampleTests */,
 				9BF0AB931D126745007BE780 /* SampleUITests */,
@@ -196,6 +208,7 @@
 				TargetAttributes = {
 					9BF0AB6D1D126745007BE780 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JT3C363T9Q;
 					};
 					9BF0AB841D126745007BE780 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -260,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF0AB7A1D126745007BE780 /* Sample.xcdatamodeld in Sources */,
+				9BF0ABA61D1268D8007BE780 /* Employee+CoreDataProperties.swift in Sources */,
 				9BF0AB741D126745007BE780 /* ViewController.swift in Sources */,
+				9BF0ABA81D1268D8007BE780 /* CinOut+CoreDataProperties.swift in Sources */,
+				9BF0ABA71D1268D8007BE780 /* Employee.swift in Sources */,
+				9BF0ABA91D1268D8007BE780 /* CinOut.swift in Sources */,
 				9BF0AB721D126745007BE780 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PavaniBandi.Sample;
@@ -416,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PavaniBandi.Sample;
